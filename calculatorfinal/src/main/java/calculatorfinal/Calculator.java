@@ -20,12 +20,10 @@ public class Calculator {
 		return max;
 	}
 	/**
-	 * This method calculates the square of a positive integer, which is 
-       * less than 10
+	
 	 * @param the input integer
 	 * @return the square of the input integer
-	 * @throws IllegalArgumentException when the input integer is not 
-       * between <code>0</code> and <code>10</code>
+	 * @throws IllegalArgumentException input is not valid
 	 */
 	public int square(int num) throws IllegalArgumentException {
 		int result = 0;
